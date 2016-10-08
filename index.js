@@ -45,9 +45,9 @@ var tableEvent = function(){
         var $btnSelf = $(this);
         var index = $btnSelf.parents('.btnOpers').index('#tableEdit .btnOpers');
         var data = initData[index];
-        console.log(index,data);
+        // console.log(index,data);
         var btnType = $btnSelf.data('btn');
-        console.log(btnType);
+        // console.log(btnType);
         switch(btnType){
             case 'edit':
                 if((data.status)){
